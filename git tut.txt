@@ -6,6 +6,7 @@ git cofig --global user.name
          --local user.name
                  user.email -change name email for this particular
                             repository
+        --global core.editor "code --wait" - to change default editor to VSCode
 git add Name1 Name2 - add files to the staging area
         --all add all files and folders
         . stages new files and modifications, without deletions (on the current directory and its subdirectories).
@@ -13,4 +14,3 @@ git commit - commit staged files and opens editor to add message for commit
           -m adds message to a commit 
 git log - displays detailed info about commits
         --oneline displays commit messages
-        

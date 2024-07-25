@@ -3,3 +3,6 @@ some changes
 commit without staging
 atimic commits
 When possible, a commit should encompass a single feature, change or fix. In other words, try to keep each commit focused on a single thing. This makes it much easier to undo or rollback changes later on. It also makes your code or project easier to review.
+
+COMMIT MESSAGES
+Describe your changes in imperative mood. as if you are given orders to the code base to change its behavior.
