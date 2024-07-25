@@ -1,0 +1,12 @@
+git init - create a new repository
+git status - gives information of the current status of a git repository and 
+            its contents
+git cofig --global user.name
+                    user.email - change global name email
+         --local user.name
+                 user.email -change name email for this particular
+                            repository
+git add Name1 Name2 - add files to the staging area
+
+git commit - commit staged files and opens editor to add message for commit
+          -m adds message to a commit
