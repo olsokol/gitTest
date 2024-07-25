@@ -1,2 +1,3 @@
 Hello there
 some changes
+commit without staging
