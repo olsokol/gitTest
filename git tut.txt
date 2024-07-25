@@ -7,6 +7,6 @@ git cofig --global user.name
                  user.email -change name email for this particular
                             repository
 git add Name1 Name2 - add files to the staging area
-
+        --all add all files and folders
 git commit - commit staged files and opens editor to add message for commit
-          -m adds message to a commit
+          -m adds message to a commit 
