@@ -1,0 +1,19 @@
+Terminal crash course
+
+ls - list of files and directories
+    ls FolderName/ - show what's inside that folder
+    ls /drive/FolderName/ - show what's inside folder on specific drive
+    ls -a --- don't ignore entries started with . (shows all content)
+start . - open win file explorer
+    start /drive/FolderName/fileName - opens file with appropriate programm
+pwd - shows current location
+cd FolderName/- change directory
+    cd /drive/FolderName - change direcroty with full path
+    cd .. - change direcroty level up
+clear - clear screen 
+touch - create file, may be multiple names separeted by spaces 
+mkdir - will create new direcroty, may be multiple separeted by spaces
+        with full path will be created in specified place
+rm - delete file of multiple files separeted by spaces
+    rm -r - to delete folder
+mv oldName newName - move files or directories, rename files or directories
