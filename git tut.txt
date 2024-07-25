@@ -13,3 +13,4 @@ git commit - commit staged files and opens editor to add message for commit
           -m adds message to a commit 
 git log - displays detailed info about commits
         --oneline displays commit messages
+        
