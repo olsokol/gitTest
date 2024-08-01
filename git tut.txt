@@ -30,3 +30,6 @@ git branch - to view your existing branches
 
 git switch <branch-name> - to switch between branches
                 git switch -c <branch-name> - create a new branch and switch to it in one go.
+
+git checkout <branch-name> - to switch between branches
+                git checkout -b <branch-name> - create a new branch and switch to it in one go.
