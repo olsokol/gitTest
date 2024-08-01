@@ -29,3 +29,4 @@ git branch - to view your existing branches
            git branch <branch-name> create a new branch     
 
 git switch <branch-name> - to switch between branches
+                git switch -c <branch-name> - create a new branch and switch to it in one go.
