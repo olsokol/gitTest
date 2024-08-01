@@ -24,3 +24,4 @@ git log - displays detailed info about commits
 
 
 git branch - to view your existing branches
+           git branch <branch-name> create a new branch     
