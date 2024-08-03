@@ -9,3 +9,4 @@ Describe your changes in imperative mood. as if you are given orders to the code
 
 
 some change in master after newBranch and testCheckout
+some change in master after nBranch was merged
