@@ -12,6 +12,8 @@ git add Name1 Name2 - add files to the staging area
         . stages new files and modifications, without deletions (on the current directory and its subdirectories).
 git commit - commit staged files and opens editor to add message for commit
           -m adds message to a commit 
+          -a will automatically stage every changed, 
+                already tracked file.
           -am stage all and add message
           --amend - amends previous commit (you may add new file to commit, or change message)
 git log - displays detailed info about commits
@@ -24,3 +26,12 @@ git log - displays detailed info about commits
 
 
 git branch - to view your existing branches
+           git branch <branch-name> create a new branch     
+           git branch -d to dtelete a branch
+           git branch -m move/rename a branch
+
+git switch <branch-name> - to switch between branches
+                git switch -c <branch-name> - create a new branch and switch to it in one go.
+
+git checkout <branch-name> - to switch between branches
+                git checkout -b <branch-name> - create a new branch and switch to it in one go.
