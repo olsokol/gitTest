@@ -37,3 +37,5 @@ git switch <branch-name> - to switch between branches
 git checkout <branch-name> - to switch between branches
                 git checkout -b <branch-name> - create a new branch and switch to it in one go.
                 git checkout --orphan <new-branch> Create a new unborn branch, named <new-branch>, started from <start-point> and switch to it. The first commit made on this new branch will have no parents and it will be the root of a new history totally disconnected from all the other branches and commits.
+
+git merge <branch-name>  Join two or more development histories together
