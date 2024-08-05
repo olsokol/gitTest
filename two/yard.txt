@@ -17,6 +17,7 @@ new commit after testCheckout
 trying stash
 
 commit after stash
+second
 
 
 first
