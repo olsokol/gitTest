@@ -66,3 +66,4 @@ git stash
                   roll them back to HEAD  
            pop - remove a single stashed state from the stash list 
                   and apply it on top of the current working tree state,
+           apply - pop, but do not remove the state from the stash list. 
