@@ -8,7 +8,7 @@ git cofig --global user.name
                             repository
         --global core.editor "code --wait" - to change default editor to VSCode
 git add Name1 Name2 - add files to the staging area
-        --all add all files and folders
+        --all add all files and folders (new, modified, and deleted)
         . stages new files and modifications, without deletions (on the current directory and its subdirectories).
 git commit - commit staged files and opens editor to add message for commit
           -m adds message to a commit 
@@ -42,4 +42,21 @@ git merge <branch-name>  Join two or more development histories together
 git rm --cached <file> to  stop tracking a file
 git rm -r --cached <folder> to stop tracking folder and all files in the folder recursively
 
-git diff - Show changes between commits, commit and working tree, etc
+git diff - show differences between unstaged files and last commit
+        git diff HEAD   lists all changes (staged and unstaged) in the
+                        working tree since last commit
+        git diff --staged
+        git diff --cached lists the changes between the staging area and last 
+                          commit "show what will be inlcuded in my commit
+                          if I run git commit right now"
+
+        git diff HEAD  <filename> 
+        git diff --staged <filename>
+        git diff --cached <filename> -narrowing to one file
+
+        git diff HEAD HEAD~1 -differences between head and 
+                                    parent on distance 1
+                     HEAD~x (x being a number. 1 going back one more, 2 going back two more, etc.)
+        git diff branch1..branch2  - show differences between two branches 
+                                    (..   or space may be used)
+        git diff commit1..commit2 -show changes between two commits
