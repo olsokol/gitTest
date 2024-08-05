@@ -40,4 +40,6 @@ git checkout <branch-name> - to switch between branches
 
 git merge <branch-name>  Join two or more development histories together
 git rm --cached <file> to  stop tracking a file
-git rm -r --cached <folder> tos stop tracking folder and all files in the folder recursively
+git rm -r --cached <folder> to stop tracking folder and all files in the folder recursively
+
+git diff - Show changes between commits, commit and working tree, etc
