@@ -13,3 +13,5 @@ some new info in nBranch after merge
 some change in master after nBranch was merged
 
 new commit after testCheckout
+
+commit after stash
