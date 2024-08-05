@@ -62,8 +62,12 @@ git diff - show differences between unstaged files and last commit
         git diff commit1..commit2 -show changes between two commits
 
 git stash 
+        <stash> stashes may be referenced by specifying just the stash 
+        index (e.g. the integer n is equivalent to stash@{n}).
            push - save local modifications to a new stash entry and 
                   roll them back to HEAD  
            pop - remove a single stashed state from the stash list 
-                  and apply it on top of the current working tree state,
+                  and apply it on top of the current working tree state. 
+                  may be used with  <stash>
            apply - pop, but do not remove the state from the stash list. 
+                 may be used with  <stash>
