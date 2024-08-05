@@ -71,3 +71,7 @@ git stash
                   may be used with  <stash>
            apply - pop, but do not remove the state from the stash list. 
                  may be used with  <stash>
+           list -list of stashes
+           show -shows a stash. may be used with <stash>
+           drop <stash> -remove a single stash entry
+           clear - remove all the stash entries. 
