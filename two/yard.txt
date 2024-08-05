@@ -14,10 +14,3 @@ some change in master after nBranch was merged
 
 new commit after testCheckout
 
-trying stash
-
-commit after stash
-second
-third
-sf
-fourth
