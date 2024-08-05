@@ -20,3 +20,4 @@ commit after stash
 second
 third
 sf
+fourth
