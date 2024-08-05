@@ -18,6 +18,3 @@ trying stash
 
 commit after stash
 second
-
-
-first
