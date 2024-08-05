@@ -7,7 +7,7 @@ When possible, a commit should encompass a single feature, change or fix. In oth
 COMMIT MESSAGES
 Describe your changes in imperative mood. as if you are given orders to the code base to change its behavior.
 
-
+ 
 some change in master after newBranch and testCheckout
 some new info in nBranch after merge
 some change in master after nBranch was merged
