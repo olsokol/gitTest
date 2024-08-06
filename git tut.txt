@@ -35,8 +35,14 @@ git switch <branch-name> - to switch between branches
                 git switch --orphan <new-branch> Create a new unborn branch, named <new-branch>. All tracked files are removed.
 
 git checkout <branch-name> - to switch between branches
-                git checkout -b <branch-name> - create a new branch and switch to it in one go.
-                git checkout --orphan <new-branch> Create a new unborn branch, named <new-branch>, started from <start-point> and switch to it. The first commit made on this new branch will have no parents and it will be the root of a new history totally disconnected from all the other branches and commits.
+                git checkout -b <branch-name> - create a new branch and switch
+                                to it in one go.
+                git checkout --orphan <new-branch> Create a new unborn branch,
+                                 named <new-branch>, started from <start-point> and switch to it. The first commit made on this new branch will have no parents and it will be the root of a new history totally disconnected from all the other branches and commits.
+                git checkout <commit-hash> -  detaches HEAD, In detached HEAD
+                                it's possible to                                make new commits and then make a branch from them.
+                git switch -  - to return back (attach HEAD) from where the
+                                HEAD was detached.  
 
 git merge <branch-name>  Join two or more development histories together
 git rm --cached <file> to  stop tracking a file
