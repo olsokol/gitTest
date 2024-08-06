@@ -109,3 +109,6 @@ git revert <commit-hash> - make a new commit that reverts the changes made by
                         In other words take commit from <commit-hash> and 
                         creates a brand new commit from it. With conflict
                         resolving possibility
+git clone <url> myfolder - clone is a full copy of a repository, including all 
+                        logging and versions of files. myfolder - to specify
+                        a specific folder to clone to.
