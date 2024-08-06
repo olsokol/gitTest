@@ -18,6 +18,7 @@ git commit - commit staged files and opens editor to add message for commit
           --amend - amends previous commit (you may add new file to commit, or change message)
 git log - displays detailed info about commits
         --oneline displays commit messages
+        -n <number> limit the number of commits to output.
 .gitignore - file in the root of repository, in 
                 which we tell git what to ignore.
                 fileName
