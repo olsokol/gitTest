@@ -93,3 +93,4 @@ git restore -restore working tree files
                                         May be from another branch. May take a file out of another commit
         --staged <fileName> --unstage this file. Nothing else changed 
         . - to restore all files in the current directory
+git reset -reset current HEAD to the specified state
