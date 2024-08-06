@@ -45,6 +45,9 @@ git checkout <branch-name> - to switch between branches
                                 HEAD was detached.  
                 git checkout HEAD~1 - refers to the commit before HEAD (parent)
                              HEAD~2 - refers to 2 commits before HEAD (grandparent)
+                git checkout HEAD <filename> - to discard any changes in 
+                                <filename>, reverting back to the HEAD. reverts the file back to whatever it looked like when 
+                                you last commited.
 
 git merge <branch-name>  Join two or more development histories together
 git rm --cached <file> to  stop tracking a file
@@ -83,3 +86,10 @@ git stash
            show -shows a stash. may be used with <stash>
            drop <stash> -remove a single stash entry
            clear - remove all the stash entries. 
+
+git restore -restore working tree files
+        <filename> - discard changes since the last commit
+        --source <commit-hash> <filename> - discard changes to that stage. 
+                                        May be from another branch. May take a file out of another commit
+        --staged <fileName> --unstage this file. Nothing else changed 
+        . - to restore all files in the current directory
