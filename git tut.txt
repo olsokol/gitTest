@@ -103,3 +103,8 @@ git reset -reset current HEAD to the specified state
         --hard <commit-hash> resets the index and working tree. Any changes to 
                         tracked files in the working tree since <commit-hash> are discarded.
                         In other words remove all changes after <commit-hash> and move HEAD to <commit-hash>.
+git revert <commit-hash> - make a new commit that reverts the changes made by 
+                        other commits.
+                        In other words take commit from <commit-hash> and 
+                        creates a brand new commit from it. With conflict
+                        resolving possibility
