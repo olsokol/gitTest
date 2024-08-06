@@ -43,6 +43,8 @@ git checkout <branch-name> - to switch between branches
                                 it's possible to                                make new commits and then make a branch from them.
                 git switch -  - to return back (attach HEAD) from where the
                                 HEAD was detached.  
+                git checkout HEAD~1 - refers to the commit before HEAD (parent)
+                             HEAD~2 - refers to 2 commits before HEAD (grandparent)
 
 git merge <branch-name>  Join two or more development histories together
 git rm --cached <file> to  stop tracking a file
