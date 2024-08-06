@@ -94,3 +94,12 @@ git restore -restore working tree files
         --staged <fileName> --unstage this file. Nothing else changed 
         . - to restore all files in the current directory
 git reset -reset current HEAD to the specified state
+        <commit-hash> - take current files with all info, and move 
+                        them back in time to <commit-hash>. All info 
+                        in files are preserved, but becomes unstaged and 
+                        uncommited. All commits after <commit-hash> deletes.
+                        In other words all commits after <commit-hash> are 
+                        deleted, but changes in files are still present.
+        --hard <commit-hash> resets the index and working tree. Any changes to 
+                        tracked files in the working tree since <commit-hash> are discarded.
+                        In other words remove all changes after <commit-hash> and move HEAD to <commit-hash>.
