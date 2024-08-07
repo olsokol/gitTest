@@ -114,4 +114,4 @@ git clone <url> myfolder - clone is a full copy of a repository, including all
                         a specific folder to clone to.
 git remote      displays a list of remotes
                 -v displays a list of remotes with more info
-           add 
+           add <name> <url> - to add connection to  remote rep
