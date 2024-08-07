@@ -118,4 +118,8 @@ git remote         displays a list of remotes
                         conventional <name> is origin, but may be anything
                 rename <old> <new> - rename remote
                 remove <name> - delete remote
+
+git push <remote> <branch> - Update remote refs along with associated
+                                objects
+                
           
