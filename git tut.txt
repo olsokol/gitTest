@@ -112,3 +112,6 @@ git revert <commit-hash> - make a new commit that reverts the changes made by
 git clone <url> myfolder - clone is a full copy of a repository, including all 
                         logging and versions of files. myfolder - to specify
                         a specific folder to clone to.
+git remote      displays a list of remotes
+                -v displays a list of remotes with more info
+           add 
