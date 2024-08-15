@@ -30,6 +30,7 @@ git branch - to view your existing branches
            git branch <branch-name> create a new branch     
            git branch -d to dtelete a branch
            git branch -m move/rename a branch
+                      -M shortcat for -m --force
 
 git switch <branch-name> - to switch between branches
                 git switch -c <branch-name> - create a new branch and switch to it in one go.
@@ -122,4 +123,4 @@ git remote         displays a list of remotes
 git push <remote> <branch> - Update remote refs along with associated
                                 objects
                 
-          
+          --all                -pushes all branches at once
